@@ -1,0 +1,18 @@
+Hello there! Here's a data dictionary for the data contained the 'data' file in this folder:
+
+Hotel_Address : Address of the hotel the reviewer stayed at
+Review Date: Review Date
+Average_Score: Average score of all the reviews received by the hotel (Same for each 'hotel address' - 'hotel name' primary key combination)
+Hotel_Name: Name of the hotel
+Reviewer_Nationality : The nationality of the reviewer
+Review_Total_Negative_Word_Counts: The number of words in the 'negative review' column for each row
+Total_Number_of_Reviews: Total number of reviews this particular reviewer has given on the Booking.com platform
+Review_Total_Positive_Word_Counts: The number of words in the 'positive review' column for each row
+Total_Number_of_Reviews_Reviewer_Has_Given: Total number of reviews reviewer has given
+Reviewer_Score: Score that reviewer has given to the hotel
+Tags: Data that contains some contextual information on the reviewer and their stay (Ex: Did they travel for leisure or business, were they travelling alone or as a couple, how many nights they stayed etc.)
+days_since_review: Days between the review date and the scraping date
+lat: Latitude of the hotel's location
+lng: Longitude of the hotel's location
+
+** Please note that Booking.com's "reviewer's score" metric is on a 7.5 scale, with 2.5 being the lowest and 10 being the highest
